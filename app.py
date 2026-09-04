@@ -4,4 +4,4 @@ st.title("Especialización Python for Analytics")
 st.sidebar.title("Parametros")
 st.write("Elaborado por :Franco Olivera")
 
-modulos = st.selectbox("Selecione el módulo",["Listas", "Arreglos", "Funciones", "POO"])
+modulos = st.sidebar.selectbox("Selecione el módulo",["Listas", "Arreglos", "Funciones", "POO"])
